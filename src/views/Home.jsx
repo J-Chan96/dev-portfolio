@@ -33,7 +33,7 @@ const Home = () => {
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
-                  steps={["Block Chain Developer", 3000]}
+                  steps={["Front-End Developer", 3000]}
                   loop={Infinity}
                 />
               </span>
@@ -45,7 +45,7 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am a Block-Chain Developer.
+              I am a Front-End Developer.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (

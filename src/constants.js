@@ -17,16 +17,16 @@ export const techStack = [
     link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
   },
   {
-    name: "Postman",
-    link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-  },
-  {
     name: "HTML",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
   },
   {
     name: "CSS",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
+  },
+  {
+    name: "Flutter",
+    link: "https://play-lh.googleusercontent.com/5e7z5YCt7fplN4qndpYzpJjYmuzM2WSrfs35KxnEw-Ku1sClHRWHoIDSw3a3YS5WpGcI",
   },
   {
     name: "React",
@@ -43,10 +43,6 @@ export const techStack = [
   {
     name: "Redux Saga",
     link: "https://ifh.cc/g/TxC3cH.png",
-  },
-  {
-    name: "NextJs",
-    link: "https://ifh.cc/g/OWq1JX.png",
   },
   {
     name: "Solidity",
@@ -69,17 +65,10 @@ export const techStack = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg",
   },
   {
-    name: "Mongo DB",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
-  },
-  {
     name: "GCP",
     link: "https://ifh.cc/g/VdgFsT.png",
   },
-  {
-    name: "Git",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
-  },
+
   // { name: "Docker", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" },
   // { name: "Bash", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" },
   // { name: "Vim", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" },
