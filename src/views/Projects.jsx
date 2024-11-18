@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import Card from "../components/Card";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
+import KommLogo from "../assets/LOGO_Komm DAO_latest.png";
+import Nftube from "../assets/nftube.webp";
 
 const Projects = () => {
   const theme = useContext(ThemeContext);
@@ -29,17 +31,71 @@ const Projects = () => {
             }}
             class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
           >
-            <a href="hello">
-              <img
-                class="rounded-t-lg w-full"
-                src="https://ifh.cc/g/X2CNZt.jpg"
-                alt=""
-              />
-            </a>
+            <div style={{ width: "320px", height: "320px", margin: "0 auto" }}>
+              <a href="app.kommdao.com">
+                <img class="rounded-t-lg w-full" src={KommLogo} alt="" />
+              </a>
+            </div>
+
             <div class="p-5">
               <a href="helo">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  NFT 마켓플레이스 사이트 제작
+                  Komm DAO 플랫폼 개발
+                </h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Komm DAO기업의 외주 프로젝트를 통해서 블록체인 기술을 활용한 웹
+                서비스를 구축했습니다.
+                <p class="text-white mt-3">주요 기능 :</p>
+                <p class="test-gray-400">
+                  블록체인 기반으로 진행되는 여러 회사의 정보와 투자금 유치 등을
+                  위해 중개해주는 서비스를 지원
+                </p>
+                <p class="text-white mt-3">담당 역할 :</p>
+                <p class="text-gray-400">프론트 : React, Typescript</p>
+                <br />
+                <p class="text-gray-400">백엔드 : Node.js, express, Solidity</p>
+                <br />
+              </p>
+              <a
+                href="https://app.kommdao.com"
+                class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+              >
+                Komm DAO
+                <svg
+                  class="ml-2 -mr-1 w-4 h-4"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </motion.div>
+          <motion.div
+            initial={"hidden"}
+            whileInView={"visible"}
+            variants={{
+              visible: { opacity: 1 },
+              hidden: { opacity: 0 },
+            }}
+            class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+          >
+            <div style={{ width: "330px", height: "320px", margin: "0 auto" }}>
+              <a href="app.kommdao.com">
+                <img class="rounded-t-lg w-full" src={Nftube} alt="" />
+              </a>
+            </div>
+
+            <div class="p-5">
+              <a href="helo">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  NFTube 플랫폼 개발
                 </h5>
               </a>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -66,24 +122,6 @@ const Projects = () => {
                 class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
               >
                 시연&발표 영상
-                <svg
-                  class="ml-2 -mr-1 w-4 h-4"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </a>
-              <a
-                href="https://dapptube.vercel.app/"
-                class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300 ml-5"
-              >
-                DappTube
                 <svg
                   class="ml-2 -mr-1 w-4 h-4"
                   fill="currentColor"
@@ -212,118 +250,6 @@ const Projects = () => {
                 class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300 ml-5"
               >
                 Google Play Store
-                <svg
-                  class="ml-2 -mr-1 w-4 h-4"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-          </motion.div>
-          <motion.div
-            initial={"hidden"}
-            whileInView={"visible"}
-            variants={{
-              visible: { opacity: 1 },
-              hidden: { opacity: 0 },
-            }}
-            class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
-          >
-            <a href="hello">
-              <img
-                class="rounded-t-lg w-full"
-                src="https://ifh.cc/g/3o87Ma.gif"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="helo">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  경일 커뮤니티 사이트 제작
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                경일 게임 아카데미의 커뮤니티 사이트로 사용자들이 소통할 수 있는
-                서비스로 제작하였습니다.
-                <p class="text-white mt-3">주요 기능 :</p>
-                <p class="test-gray-400">
-                  회원가입,로그인,게시판,듀오매치,채팅,관리자 기능을 포함한
-                  웹사이트를 제작하였습니다.
-                </p>
-                <p class="text-white mt-3">담당 역할 :</p>
-                <p class="text-gray-400">
-                  회원가입, 파일업로드, OAuth2.0 카카오 로그인 구현, 구글 API
-                  활용
-                </p>
-              </p>
-              <a
-                href="https://github.com/J-Chan96/community_teample"
-                class="inline-flex items-center  mt-10 py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
-              >
-                Github
-                <svg
-                  class="ml-2 -mr-1 w-4 h-4"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-          </motion.div>
-          <motion.div
-            initial={"hidden"}
-            whileInView={"visible"}
-            variants={{
-              visible: { opacity: 1 },
-              hidden: { opacity: 0 },
-            }}
-            class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
-          >
-            <a href="hello">
-              <img
-                class="rounded-t-lg w-full"
-                src="https://ifh.cc/g/GwdLdo.png"
-                alt=""
-              />
-            </a>
-            <div class="p-5">
-              <a href="helo">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  게시판 기능을 포함한 웹페이지 제작
-                </h5>
-              </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                첫 팀플 협업으로 제작한 프로젝트로 로그인과 게시판 기능이
-                구현되어있는 웹페이지를 제작하였습니다.
-                <p class="text-white mt-3">주요 기능 :</p>
-                <p class="test-gray-400">
-                  회원가입, 로그인, 로그아웃, 회원탈퇴, 프로필 수정
-                  ,게시판,관리자 기능을 포함한 웹페이지
-                </p>
-                <p class="text-white mt-3">담당 역할 :</p>
-                <p class="text-gray-400">
-                  커넥션 풀과 프로미스를 활용해서 데이터베이스와 연결 및 작업
-                  진행, 사용자 회원가입과 로그인 기능 작업
-                </p>
-              </p>
-              <a
-                href="https://github.com/J-Chan96/Teample"
-                class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
-              >
-                Github
                 <svg
                   class="ml-2 -mr-1 w-4 h-4"
                   fill="currentColor"

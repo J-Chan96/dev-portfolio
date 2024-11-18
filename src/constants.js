@@ -1,3 +1,8 @@
+import amazonIcon from "./assets/amazonwebservices-line-wordmark.svg";
+import grapql from "./assets/graphql-plain.svg";
+import mysql from "./assets/mysql-original.svg";
+import solidity from "./assets/solidity-original.svg";
+
 export const techStack = [
   {
     name: "Javascript",
@@ -29,40 +34,25 @@ export const techStack = [
     link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
   },
   {
-    name: "React Native",
-    link: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png",
-  },
-  {
     name: "Redux",
     link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
   },
-  {
-    name: "Redux Saga",
-    link: "https://ifh.cc/g/TxC3cH.png",
-  },
+
   {
     name: "Solidity",
-    link: "https://ifh.cc/g/5SjCWV.png",
-  },
-  {
-    name: "Truffle",
-    link: "https://ifh.cc/g/hyRbGJ.png",
-  },
-  {
-    name: "Ganache",
-    link: "https://ifh.cc/g/SFhtcp.png",
-  },
-  {
-    name: "IPFS",
-    link: "https://ifh.cc/g/vKnLWX.png",
+    link: solidity,
   },
   {
     name: "MySQl",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg",
+    link: mysql,
   },
   {
-    name: "GCP",
-    link: "https://ifh.cc/g/VdgFsT.png",
+    name: "GraphQL",
+    link: grapql,
+  },
+  {
+    name: "AWS",
+    link: amazonIcon,
   },
 
   // { name: "Docker", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" },
@@ -78,11 +68,6 @@ export const contactLinks = [
     name: "Github",
     url: "https://img.icons8.com/doodle/40/000000/github--v1.png",
     link: "https://github.com/J-Chan96",
-  },
-  {
-    name: "Tistory",
-    url: "https://ifh.cc/g/ojjs3z.png",
-    link: "https://juchan-story.tistory.com/",
   },
 ];
 

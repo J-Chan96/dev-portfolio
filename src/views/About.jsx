@@ -30,16 +30,13 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              저는 경일게임아카데미에서 블록체인5기 전문 교육과정을 통해서 배운
-              신입 개발자입니다. 전반적으로 HTML/CSS와 같은 기초적인 부분부터
-              시작해서 Node.js 기반의 백엔드, React를 활용한 프론트엔드, MySQL을
-              활용한 데이터베이스 등을 배우며 웹 프로그래밍에 관한 교육을
-              받았고, 전반적인 블록체인 생태계를 이해했으며, Solidity를 활용한
-              스마트 컨트랙트 작성 및 배포 등을 배우면서 지식을 쌓았습니다.
-              그리고 교육과정 중 4번의 팀 프로젝트를 통해서 팀워크와 협업에 대한
-              경험을 쌓았고, 그 중 한번은 기업 협약 프로젝트를 통해 회사와의
-              협업으로 프로젝트를 진행했습니다. 이를 통해 팀 단위 협업을 배우고
-              터득할 수 있었습니다.
+              블록체인과 웹 개발의 전문성을 갖춘 개발자로, React, Node.js,
+              Solidity와 같은 기술 스택을 바탕으로 1년 6개월간 리버밴스에서
+              블록체인 기반 웹 서비스를 개발했으며, AWS 배포, GraphQL,
+              데이터베이스 설계 등의 경험을 통해 서버 안정성과 효율성을
+              확보했습니다. 또한, 독립적으로 app.kommdao.com 프로젝트를 6개월간
+              주도하며, UI/UX 설계부터 스마트 컨트랙트 개발, 프런트엔드 및
+              백엔드 구현까지 모든 과정을 성공적으로 완료했습니다.
             </p>
           </motion.div>
           <motion.div>
@@ -56,7 +53,7 @@ const About = () => {
               아래의 기술들을 활용함으로써 프로젝트에 진행했습니다.
             </p>
           </motion.div>
-          <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between ">
+          <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-center ">
             {techStack.map((el, index) => (
               <motion.div
                 initial="hidden"
